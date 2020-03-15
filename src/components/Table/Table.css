@@ -1,0 +1,32 @@
+.table-container {
+  display: inline-block;
+  width: 630px;
+  height: 600px;
+}
+.ant-table,
+.ant-pagination {
+  font-size: 11px;
+}
+.ant-table-cell-ellipsis {
+  text-align: center;
+}
+.ant-table tbody > tr > :nth-child(4) {
+  background-color: red;
+}
+.ant-table tbody > tr > :nth-child(5) {
+  color: white;
+  background-color: gray;
+}
+.ant-table tbody > tr > :nth-child(6) {
+  background-color: lightgreen;
+}
+.ant-table tbody > tr > :nth-child(7) {
+  background-color: yellow;
+}
+
+.ant-table tbody > tr.ant-table-row-selected > td {
+  color: black;
+}
+.ant-table tbody > tr.ant-table-row.ant-table-row-level-0:hover > td {
+  color: black;
+}

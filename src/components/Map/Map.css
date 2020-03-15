@@ -1,0 +1,9 @@
+.leaflet-container {
+  display: inline-block;
+  height: 500px;
+  width: 800px;
+}
+
+.leaflet-control-layers-selector {
+  cursor: pointer;
+}

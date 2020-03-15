@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.vis-block {
+  display: inline-block;
+}
+.text-box {
+  background-color: black;
+  padding-top: 10px;
+}
+.text-box > div {
+  width: 157.5px;
+  text-align: center;
+}
+.text-box > div > span {
+  font-size: 12px;
+  color: white;
+}
+.text-box > div > h1 {
+  font-size: 25px;
+}
+.text-box :nth-child(1) > h1 {
+  color: red;
+}
+
+.text-box :nth-child(2) > h1 {
+  color: lightgray;
+}
+
+.text-box :nth-child(3) > h1 {
+  color: #099c44;
+}
+
+.text-box :nth-child(4) > h1 {
+  color: #efcc00;
+}
+
+.ant-layout-sider {
+  width: 630px !important;
+  max-width: 630px !important;
+  background-color: white;
+}
+
+
+.site-layout-background > h1 {
+  color: white;
+  padding-left: 20px;
+}
+.ant-layout-header {
+    width: 810px;
+    height: 83.5px;
+    z-index: 9999;
+    position: fixed;
+    vertical-align: middle;
+}
+
+.ant-layout-content {
+    margin-top: 83.5px;
+}
